@@ -10,10 +10,11 @@ to start in deamon process mode i.e. running in background, list running images 
   
   --> docker-compose down
 
-# create a topic after kafka is up
-./bin/kafka-topics.sh --create --zookeeper zookeeper:2181 --replication-factor 1 --partitions 1 --topic dagim_demo_topic
+# Topics, Producer, Consumer
 
-the below approach defaults to 1 partition and 1 replica
+**Create**
+./bin/kafka-topics.sh --create --zookeeper zookeeper:2181 --replication-factor 1 --partitions 1 --topic dagim_demo_topic
+**the below approach defaults to 1 partition and 1 replica**
 
 ./bin/kafka-topics.sh --create --topic temp_topic --bootstrap-server localhost:9092
 
