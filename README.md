@@ -27,7 +27,7 @@ cosume a messages/events
 produce a messages/events
 ./bin/kafka-console-producer.sh --topic dagim_demo_topic --bootstrap-server localhost:9092
 
-# visit the kafka documentation at the link below
+# visit the kafka documentation with the link below
 https://kafka.apache.org/quickstart
 
 
